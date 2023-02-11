@@ -257,10 +257,10 @@ def get_reply_type(phone, imei):
                                               "id": "11",
                                               "title": language.signalDeviceMenu
                                           },
-                                           {
-                                              "id": "12",
-                                              "title": "Generate PDF"
-                                          },
+#                                            {
+#                                               "id": "12",
+#                                               "title": "Generate PDF"
+#                                           },
                                       ]
                                   }
                               ]
@@ -423,8 +423,8 @@ def _get_data(_name, query_type, phone):
                 return mode(item, user.language)
             case '11':
                 return signal(item, user.language)
-            case '12':
-                return send_pdf(item,phone)
+#             case '12':
+#                 return send_pdf(item,phone)
             case _:
                 return "Comming soon"
 
