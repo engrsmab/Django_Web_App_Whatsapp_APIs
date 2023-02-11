@@ -1,0 +1,3 @@
+run celery worker:  celery -A device worker -l INFO
+run celery beat: 
+-> final command: celery -A device beat -l info -S django
