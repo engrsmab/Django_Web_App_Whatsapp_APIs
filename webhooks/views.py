@@ -30,8 +30,8 @@ def save_pdf():
     while True:
         create_pdf()
         time.sleep(900)
-pdf_thread = Thread(target=save_pdf)
-pdf_thread.start()
+# pdf_thread = Thread(target=save_pdf)
+# pdf_thread.start()
 def reply_whatsapp(payload):
     payload = json.dumps(payload)
     try:
