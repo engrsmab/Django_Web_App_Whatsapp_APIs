@@ -1,4 +1,4 @@
-from pdf_creator import PDF
+from .pdf_creator import PDF
 import datetime
 from PyPDF2 import PdfFileReader
 
