@@ -87,9 +87,9 @@ else:
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ddi5vnkbfggrg1',
         'USER': 'ihbyvvhjkedmqi',
-        'PASSWORD': '2a8477744ab91c5b9aa76b3a0c5a12577e969835014cd77b8a771e28374c616d',
-        'HOST': 'ec2-54-227-248-71.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'PASSWORD': 'peaf2e59168659ec7ae66e9362ea80cf993547c36db63b4d23ef90642158c1f01',
+        'HOST': 'ec2-34-248-245-74.eu-west-1.compute.amazonaws.com',
+        'PORT': '21020',
     }
 }
 
