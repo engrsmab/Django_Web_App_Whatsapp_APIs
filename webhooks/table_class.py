@@ -52,13 +52,4 @@ class PDF_Generation:
         pdf.ln()
         pdf.output(f"{str(datetime.datetime.today().date())}.pdf")
         return True
-import time
-i = 1
-pdf_class = PDF_Generation()
-while True:
-    print("Count: ",i)
-    pdf_class.get_pdf("","Helium")
-    time.sleep(5)
-    i += 1
-    if i == 3:
-        break
+
