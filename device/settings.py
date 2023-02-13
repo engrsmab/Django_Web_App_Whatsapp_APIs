@@ -66,7 +66,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'device.wsgi.application'
 
 if(1):
-    ALLOWED_HOSTS = ['smav1-machines.herokuapp.com']
+    ALLOWED_HOSTS = ['smav1-machines.herokuapp.com','smav-machine.herokuapp.com']
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
