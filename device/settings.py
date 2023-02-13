@@ -12,6 +12,7 @@ DATABASE_PASSWORD = os.environ.get('DATABASE_PASSWORD')
 DATABASE_HOST = os.environ.get('DATABASE_HOST')
 DATABASE_PORT = os.environ.get('DATABASE_PORT')
 DATABASE_URL = os.environ.get('DATABASE_URL')
+print("dB Name: ", DATABASE_NAME)
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-jl3kto5w0eoym#r0oxk8$x77)biq=&$h#2@033dt^y(a5nkg0e'
